@@ -1,0 +1,128 @@
+body {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.nav_home{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.bxhome{
+    color: blue;
+}
+
+.about_me{
+    position: relative;
+    display: flex;
+}
+
+.about_me__button{
+    border-radius: 2px;
+    padding: 5px;
+    margin: 10px;
+}
+.about_me__techs{
+    width: 500px;
+    height: 100%;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background-color:#06283D;
+    padding: 5px;
+    
+}
+
+.about_me__photostextsicons{
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   align-items: center;
+  
+}
+
+.about_me__myphoto{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    margin:10px;
+}
+
+.aboutme_texts{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+
+}
+.about_me__title{
+    color:azure;
+    text-align: center;
+
+}
+
+.about_me__text{
+    color: azure;
+}
+
+
+
+.button{
+    color:azure;
+    font-size: 150px;
+}
+
+
+.carousel-container{
+    border: 2px wheat;
+
+}
+
+.carousel-techs{
+    color: wheat;
+}
+
+
+@media(min-width:300px) and (max-width:700px){
+
+    .about_me{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .about_me__techs{
+
+        width: 100%;
+        height: 350px;
+        
+    }
+
+    .aboutme__techs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about_me__photostextsicons{
+       
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .aboutme_texts{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+    
+    }
+
+}

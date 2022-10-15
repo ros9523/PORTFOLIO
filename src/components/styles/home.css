@@ -1,0 +1,19 @@
+.typeWriter-container{
+    width: 100vw;
+    font-family: "Noto Serif";
+    color: darkblue;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: fixed; 
+}
+
+.typeWriter-container__image{
+    height: 150px;
+    
+}

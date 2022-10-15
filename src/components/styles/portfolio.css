@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.portfolio{
+    position: relative; 
+    color: azure;  
+    text-align: center;
+    
+}
+
+.portfolio__imagescontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+    gap: 35px;
+
+}
+
+.portfolio__imagecontainer{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: grey;
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+
+.portfolio__image{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    position:relative;
+}
+
+ .portfolio__image--weather{
+    object-fit: contain;
+    height: 50%;
+    width: 100%;
+   
+}
+
+
+.portfolio__imageAndText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio__textcontainer{
+    width: 300px;
+    ;
+    text-align: justify;
+    border-radius: 5px;
+    padding: 8px;
+    
+    
+}
+
+.portfolio__imagecontainer:hover .portfolio__image{
+   opacity: 0.3; 
+}
+
+.portfolio__imagetext{
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.portfolio__texts{ 
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;  
+
+}
+
+.portfolio__imagecontainer:hover .portfolio__imagetext{
+    opacity: 1;
+}
+
+
+.btn{
+   margin: 10px;
+   padding: 10px;
+   position: relative;
+}
+
+
+@media(min-width:300px) and (max-width:700px){
+
+    .portfolio__imagescontainer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        gap: 35px;
+        padding: 10px;
+    
+    }
+
+    .portfolio__imagecontainer{
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+        border: 2px solid black;
+        background-color: grey;
+        padding: 10px;
+        margin:10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    
+    
+
+}
+
+
+
+
+
+
